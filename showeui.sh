@@ -5,7 +5,7 @@
  echo 
  echo " #################################################################"
  echo 
- echo                   GATEWAY EUID = $GATEWAY_EUI
+ echo "                  GATEWAY EUID = $GATEWAY_EUI"
  echo
  echo "    Open TTN console and register your gateway using your EUI: "
  echo "         https://console.thethingsnetwork.org/gateways "
