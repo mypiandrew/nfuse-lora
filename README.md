@@ -24,7 +24,9 @@ Next edit `start.sh` (using `vi` or `nano`) and alter the top reset pin config l
     # EdgeGateway mPCIe1 (Right hand side mPCIe)
     #SX1301_RESET_BCM_PIN=41
 
-Next run `install.sh` to start the install process, answer "Y" to any `apt-get` install questions
+Next run the to start the install process, answer "Y" to any `apt-get` install questions
+
+    ./install.sh
 
 On completion you will next need to configure your unit on "The Things Network" (TTN) to do this we first need the EUI of the unit.
 
