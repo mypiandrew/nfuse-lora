@@ -9,10 +9,9 @@ if [ $UID != 0 ]; then
 fi
 
 echo "The Things Network Gateway installer for the NFuse mPCIe Concetrator"
+echo "********************************************************************"
+echo
 
-apt-get update
-apt-get upgrade
-apt-get install git
 
 INSTALL_DIR="/opt/ttn-gateway"
 if [ ! -d "$INSTALL_DIR" ]; then mkdir $INSTALL_DIR; fi
@@ -45,7 +44,6 @@ systemctl enable ttn-gateway.service
 echo "Installation completed, system will reboot shortly to activate system"
 
 
-
-echo "The system will reboot in 15 seconds..."
+echo "The system will reboot in 5 seconds..."
 sleep 5
 shutdown -r now
