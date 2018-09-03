@@ -6,6 +6,13 @@ Plug mPCIe Lora Concentrator card into unit, note which socket the card has been
 
 Connect unit to ethernet and log in as root user 
 
+update the OS and install git, answer "Y" to any `apt-get` install questions
+
+    apt-get update
+    apt-get upgrade
+    apt-get install git
+
+
 Run the below to clone this repository 
 
     git clone https://github.com/mypiandrew/nfuse-lora.git
@@ -24,7 +31,7 @@ Next edit `start.sh` (using `vi` or `nano`) and alter the top reset pin config l
     # EdgeGateway mPCIe1 (Right hand side mPCIe)
     #SX1301_RESET_BCM_PIN=41
 
-Next run the to start the install process, answer "Y" to any `apt-get` install questions
+Next run the to start the install process
 
     ./install.sh
 
