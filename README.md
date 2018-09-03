@@ -37,7 +37,7 @@ The system will then print out the EUI of the unit
 
 Goto the website below and register a new account, adding a new gateway 
   
-   [https://console.thethingsnetwork.org/] (https://console.thethingsnetwork.org/)
+   https://console.thethingsnetwork.org/
 
   
 Note that it takes between 1-10mins for the system to attempt a connection and to show as "connected" on TTN dashboard
