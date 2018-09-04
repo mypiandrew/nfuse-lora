@@ -16,6 +16,7 @@ update the OS and install git, answer "Y" to any `apt-get` install questions
 Run the below to clone this repository 
 
     git clone https://github.com/mypiandrew/nfuse-lora.git
+    cd nfuse-lora
     chmod +x *.sh
   
 Next edit `start.sh` (using `vi` or `nano`) and alter the top reset pin config lines based on the unit you are using the card in
